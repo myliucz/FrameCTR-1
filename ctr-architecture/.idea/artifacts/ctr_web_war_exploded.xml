@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ctr-web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ctr_web_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ctr-web/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ctr-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/ctr-web/web/WEB-INF/lib/jdom-2.0.6.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

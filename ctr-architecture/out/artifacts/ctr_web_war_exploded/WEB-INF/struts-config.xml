@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<structs>
+    <action-entity>
+        <entity name="decide" class="bussiness.BussForm"></entity>
+    </action-entity>
+
+    <action-mapping>
+        <action name="decide" type="bussiness.BussAction" path="/decide">
+            <forward name="chenggong" value="/view/MyJsp.jsp" ></forward>
+            <forward name="shibai" value="/view/fail.jsp"></forward>
+        </action>
+    </action-mapping>
+</structs>
